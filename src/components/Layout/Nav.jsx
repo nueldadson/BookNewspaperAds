@@ -29,7 +29,7 @@ const Nav = () => {
 	return (
 		<>
 			{/* Navigation Bar */}
-			<header className="bg-[linear-gradient(90.24deg,_rgba(255,253,250,0.45)_0.56%,_rgba(41,26,7,0.45)_79.49%)] w-full h-[75px] rounded-[100px] flex items-center justify-between z-40 px-20 transition-all duration-300 max-sm:justify-between max-sm:px-5 max-sm:rounded-none">
+			<header className="bg-gradient-to-r from-white to-[#ED2024] w-full h-[75px] rounded-[100px] flex items-center justify-between z-40 px-20 transition-all duration-300 max-sm:justify-between max-sm:px-5 max-sm:rounded-none">
 				{/* Logo */}
 				<Link to="/" className="flex items-center w-28">
 					<img
